@@ -23,3 +23,32 @@ Detalles:
     1. Se utiliza malloc() para generar la matriz con memoria dinámica, en tiempo de ejecución, adaptándose al tamaño indicado en el archivo.
 
     2. Después, se recorre la matriz para encontrar la diagonal con la secuencia más larga de 1s en la dirección hacia la esquina inferior izquierda (de derecha a izquierda).
+
+Resultados con matrices de distintos tamaños:
+
+    La matriz es: 
+    1 0 1 
+    1 0 1 
+    0 1 1 
+
+    La secuencia de 1s mas grande es: 4
+
+    La matriz es: 
+    1 0 1 0 
+    1 0 1 1 
+    0 1 1 1 
+    0 0 1 1 
+
+    La secuencia de 1s mas grande es: 5
+
+    La matriz es: 
+    1 0 1 0 1 0 1 0 
+    1 0 1 1 1 0 1 1 
+    0 1 1 1 0 1 1 1 
+    0 0 1 1 1 0 1 1 
+    0 0 1 1 0 0 1 1 
+    1 0 1 1 1 0 1 0 
+    0 1 1 1 1 1 1 0 
+    0 0 1 1 1 0 1 0 
+
+    La secuencia de 1s mas grande es: 6
